@@ -93,29 +93,29 @@ namespace Music_Theory_Project
                             switch (randomNumber3)
                             {
                                 case 1:
-                                    rythem = "w";
+                                    rythem = "1";
                                     break;
                                 case 2:
-                                    rythem = "h";
+                                    rythem = "1/2";
                                     break;
                                 case 3:
-                                    rythem = "q";
+                                    rythem = "1/4";
                                     break;
                                 case 4:
-                                    rythem = "e";
+                                    rythem = "1/8";
                                     break;
                                 case 5:
-                                    rythem = "s";
+                                    rythem = "1/16";
                                     break;
                                 case 6:
-                                    rythem = "t";
+                                    rythem = "1/32";
                                     break;
                                 default:
                                     rythem = "wtf!";
                                     break;
                             }
 
-                            Console.WriteLine($"w = whole-note / h = half-note / q = quarter-note / e = eight-note / s = sixtheentnote / t = thirtytwonote");
+                            Console.WriteLine($"1/1 = whole-note & 1/2 = half-note & 1/4 = quarter-note & 1/8 = eight-note & 1/16 = sixtheentnote & 1/32 = thirtytwonote");
                             Console.WriteLine($"");
                             Console.WriteLine($"");
                             Console.WriteLine($"Your random note is:  {name + octave} {rythem}");
